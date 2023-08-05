@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Me</title>               
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" type="image/jpg" href="assets/MyFace.jpg">
+        <script>
+            document.getElementById("home-button").addEventListener('click',function (e) {
+                e.preventDefault();
+
+                history.replaceState(null,null,"/");
+            })
+        </script>
+    </head>
+    <body>
+        <div class="topnav">
+            <a id="home-button" class="active" href="index.html">Home</a>
+            <a href="aboutMe.html">About Me</a>
+        </div>
+        <h1> this will tell you something about me</h1>
+    </body>
+</html>

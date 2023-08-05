@@ -1,0 +1,27 @@
+{
+  "name": "personalpage",
+  "version": "1.0.0",
+  "description": "personal webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarikvural/PersonalPage.git"
+  },
+  "author": "Tarik Vural",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarikvural/PersonalPage/issues"
+  },
+  "homepage": "https://github.com/tarikvural/PersonalPage#readme",
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
